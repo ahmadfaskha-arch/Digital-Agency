@@ -1,0 +1,198 @@
+:root{
+    --myprimary-color:rgba(39, 45, 56, 1) !important;
+    /* --myprimary-margin-left:188px !important;
+    --myprimary-margin-right:176px !important; */
+    --myprimary-margin:171px !important;
+    --myprimary-fs:64px !important;
+    --myprimary-fs-p:18px !important ;
+    --myprimary-color-buttun:rgba(142, 173, 213, 1) !important ;
+    --myprimary-pbtn-x:10px 31px !important;
+    --myprimary-bgcolor:rgba(246, 246, 246, 1) !important;
+    --myprimary-color-p:rgba(102, 112, 133, 1) !important ;
+    --myprimary-width-continer:1065px !important ;
+    --myprimary-spacing-32:32px !important ;
+    --myprimary-padding-footer:105px !important;
+     
+
+
+} 
+*{
+    font-family: "Inter", sans-serif !important;
+}
+.mw-1076{
+    max-width: 1076px !important;
+}
+.text-myprimary{
+    color: var(--myprimary-color) !important;
+}
+.py-32{
+    padding-top: var(--myprimary-spacing-32) !important;
+    padding-bottom: var(--myprimary-spacing-32) !important;
+}
+.mt-32{
+    margin-top: var(--myprimary-spacing-32) !important;
+}
+
+.gap-44{
+    gap: 44px !important;
+}
+.mt-171{
+    margin-top: var(--myprimary-margin);
+}
+.mw-1065{
+    max-width: var(--myprimary-width-continer) !important;
+}
+/* .fs-64px{
+    font-size: var(--myprimary-fs) !important;
+} */
+.fs-18{
+    font-size: var(--myprimary-fs-p) !important;
+}
+.bg-btn{
+    background-color: var(--myprimary-color-buttun) !important;
+}
+.px-btn{
+    padding: var(--myprimary-pbtn-x) !important;
+}
+.mt-157{
+    margin-top: 157px !important;
+}
+.bg-w{
+    background-color: var(--myprimary-bgcolor) !important;
+}
+.h-86{
+    height: 86px !important;
+}
+.text-myprimary-p{
+    color: var(--myprimary-color-p) !important;
+}
+.obj-fit{
+    object-fit: cover !important;
+    width:358px !important;
+    height:358px !important;
+}
+.flib-mob{
+    /* transform:scaleY(-1) !important; */
+    /* height: 100%; */
+    transform:rotate(90deg) !important;
+}
+.fs-14{
+    font-size: 14px !important;
+}
+.pt-40{
+    padding-top: 40px !important;
+}
+.w-24{
+    width: 24px !important;
+}
+.h-24{
+    height: 24px !important;
+}
+.wbtn-16{
+    width:16px !important;
+}
+.hbtn-16{
+    height:16px !important;
+}
+.rounded-20{
+    border-radius: 20px !important;
+}
+.pt-105{
+    padding-top: var(--myprimary-padding-footer);
+}
+.cricl-style{
+    width: 523px !important;
+    height: 497px !important;
+    filter: blur(100px) !important; 
+}
+.cricl-style-section {
+    width: 187px !important;
+    height: 472px !important;
+    filter: blur(80px) !important;
+    border-radius: 50% 0 0 50% !important;
+}
+.bg-cricl{
+    background-color: rgba(142, 173, 213, 0.24) !important;
+}
+.top-12{
+    top: -230px !important;
+    right: 0 !important; 
+}
+.over-flow{
+    overflow: hidden !important;
+}
+.translet-y{
+    transform: translateY(-50%);
+}
+
+
+
+@media screen and (min-width:992px){
+    :root{
+    --myprimary-margin-left:188px !important;
+    --myprimary-margin-right:187px !important;
+    --myprimary-width-h1:540px !important ;
+    --myprimary-height-section:450px !important;
+    --myprimary-margin-right-nav:167px !important;
+    
+
+    
+
+    }
+.mx-myprimary{
+    margin-left: var(--myprimary-margin-left)!important;
+    margin-right: var(--myprimary-margin-right) !important;
+
+}
+.fs-20{
+    font-size: 20px !important;
+}
+
+.mw-540{
+    max-width: var(--myprimary-width-h1) !important;
+}
+.mw-915{
+    max-width: 915px !important;
+}
+.obj-fit{
+    width: 450px !important;
+    height: 450px !important;
+}
+.mt-lg-136 {
+    margin-top: 136px !important;
+}
+.flib-mob{
+    transform: none !important;
+}
+/* .testimonial{
+    height: 500px !important;
+} */
+.w-345{
+    width: 344px !important;
+}
+.h-450{
+    height: var(--myprimary-height-section) !important;
+}
+
+}
+@media screen and (max-width:992px) {
+:root {
+        --my-primary-width-mob:378px !important ;
+
+        
+
+}
+.w-378{
+    width: var(--my-primary-width-mob) !important;
+}
+
+.h-350{
+    height: 350px !important;
+}
+.py-16{
+    padding: 16px 0 16px 0 !important;
+}
+.mx-mob{
+    margin: 167px 25px 0 25px !important;
+}
+}
