@@ -1,7 +1,5 @@
 :root{
     --myprimary-color:rgba(39, 45, 56, 1) !important;
-    /* --myprimary-margin-left:188px !important;
-    --myprimary-margin-right:176px !important; */
     --myprimary-margin:171px !important;
     --myprimary-fs:64px !important;
     --myprimary-fs-p:18px !important ;
@@ -118,32 +116,28 @@
     top: -230px !important;
     right: 0 !important; 
 }
-.over-flow{
+/* .over-flow{
     overflow: hidden !important;
-}
-.translet-y{
+} */
+/* .translet-y{
     transform: translateY(-50%);
-}
+} */
 
 
 
 @media screen and (min-width:992px){
     :root{
-    --myprimary-margin-left:188px !important;
-    --myprimary-margin-right:187px !important;
+    /* --myprimary-margin-left:188px !important;
+    --myprimary-margin-right:187px !important; */
     --myprimary-width-h1:540px !important ;
     --myprimary-height-section:450px !important;
     --myprimary-margin-right-nav:167px !important;
-    
-
-    
-
     }
-.mx-myprimary{
+/* .mx-myprimary{
     margin-left: var(--myprimary-margin-left)!important;
     margin-right: var(--myprimary-margin-right) !important;
 
-}
+} */
 .fs-20{
     font-size: 20px !important;
 }
@@ -164,33 +158,19 @@
 .flib-mob{
     transform: none !important;
 }
-/* .testimonial{
-    height: 500px !important;
-} */
 .w-345{
-    width: 344px !important;
+    width: 345px !important;
 }
-.h-450{
-    height: var(--myprimary-height-section) !important;
-}
-
 }
 @media screen and (max-width:992px) {
 :root {
         --my-primary-width-mob:378px !important ;
-
-        
-
 }
 .w-378{
     width: var(--my-primary-width-mob) !important;
 }
-
 .h-350{
     height: 350px !important;
-}
-.py-16{
-    padding: 16px 0 16px 0 !important;
 }
 .mx-mob{
     margin: 167px 25px 0 25px !important;
